@@ -18,7 +18,7 @@ public class InvadersScene extends Scene {
 
     @Override
     public void render(float deltaT) {
-        Log.d("Delta: " + deltaT);
+
         this.mViewGroup.render(deltaT);
     }
 }
